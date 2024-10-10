@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace JoshBenham\MailgunWebhook\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MailgunWebhookCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-mailgun-webhook';
 
     public $description = 'My command';
 
