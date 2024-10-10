@@ -2,9 +2,9 @@
 
 namespace JoshBenham\MailgunWebhook;
 
+use JoshBenham\MailgunWebhook\Commands\MailgunWebhookCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use JoshBenham\MailgunWebhook\Commands\MailgunWebhookCommand;
 
 class MailgunWebhookServiceProvider extends PackageServiceProvider
 {
